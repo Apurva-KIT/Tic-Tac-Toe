@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="icon" type="image/png" href="./game.png">
+    <link rel="stylesheet" href="./game.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main class="main">
+        <h1>Tic Tac Toe</h1>
+        <section id="container" class="container">
+            <div id="r1_c1"></div>
+            <div id="r1_c2"></div>
+            <div id="r1_c3"></div>
+            <div id="r2_c1"></div>
+            <div id="r2_c2"></div>
+            <div id="r2_c3"></div>
+            <div id="r3_c1"></div>
+            <div id="r3_c2"></div>
+            <div id="r3_c3"></div>
+        </section>
+        <section>
+            <button onclick="resetGame()">Reset</button>
+        </section>
+    </main>
+    <section class="players">
+        <h3>Players</h3>
+        <p>Player 1 : X</p>
+        <p>Player 2 : O</p>
+        <p id="message"></p>
+    </section>
+    <script src="./game-funtion.js"></script>
+</body>
+
+</html>
